@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        BookShelf bookShelf = new BookShelf(4);
+        BookShelf bookShelf = new BookShelf();
         List<Book> bookList = Arrays.asList(
                 new Book("Around the World in 80 Days"),
                 new Book("Bible"),
